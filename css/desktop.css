@@ -1,0 +1,154 @@
+body header .logo {
+    left: 165.15px;
+}
+body header .header-background-tablet {
+    display: none;
+}
+body header .header-background-desktop {
+    background-image: url(/assets/bg-main-desktop.png);
+    width: 1613px;
+    height: 1758px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -112px;
+    left: -146px;
+    filter: blur(67.957px);
+}
+body header .header-background-pattern {
+    width: 312px;
+    height: 468px;
+    top: -40px;
+    left: 1128px;
+}
+
+body main {
+    top: 221px;
+}
+body main .container-text {
+    width: 1015px;
+    height: 318px;
+    left: 165px;
+    margin-bottom: 108px;
+}
+body main .container-text .text-title {
+    width: 1015px;
+    height: 176px;
+    font-size: calc(88rem / 16);
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+body main .container-text .text-paragraph {
+    width: 825px;
+    height: 102pxs;
+    font-size: calc(20rem / 16);
+    line-height: 34px;
+}
+
+body main .container-card {
+    width: 1110px;
+    height: 928px;
+    left: 165px;
+}
+body main .container-card .card-img-app {
+    width: 312px;
+    height: 642px;
+    left: 102px;
+}
+body main .container-card .container-card-bg {
+    width: 1110px;
+    height: 600px;
+    left: 0;
+    top: 213px;
+}
+body main .container-card .container-card-bg .card-img-background {
+    width: 312px;
+    height: 468px;
+    left: 336px;
+    top: -40px;
+}
+body main .container-card .container-card-text {
+    width: 448px;
+    height: 625px;
+    left: 569px;
+}
+body main .container-card .container-card-text h2 {
+    font-size: calc(40rem / 16);
+    line-height: 52px;
+    top: 58px;
+    left: 54px;
+}
+body main .container-card .container-card-text .text-paragraph {
+    font-size: calc(20rem / 16);
+    line-height: 34px;
+    top: 132px;
+    left: 53px;
+    width: 333px;
+    height: 170px;
+}
+body main .container-card .container-card-text .date {
+    top: 341px;
+    left: 54px;
+}
+body main .container-card .container-card-text .button-1 {
+    top: 439px;
+    left: 54px;
+}
+body main .container-card .container-card-text .button-2 {
+    top: 516px;
+    left: 54px;
+}
+body footer {
+    top: 1575px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+}
+body footer .container-footer-tablet {
+    display: none;
+}
+body footer .container-footer-desktop {
+    display: block;
+    position: absolute;
+    width: 1110px;
+    height: 79px;
+    display: flex;
+    top: 87px;
+}
+body footer .container-footer-desktop img {
+    width: 146.09px;
+    height: 32px;
+}
+body footer .container-footer-desktop p {
+    font-size: calc(16rem / 16);
+    width: 366px;
+    height: 79px;
+    line-height: 26px;
+    position: absolute;
+    left: 285px;
+}
+body footer .container-footer-desktop p span {
+    font-weight: bold;
+}
+body footer .container-footer-desktop .redes-desktop {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1010px;
+    top: 29px;
+}
+body footer .container-footer-desktop .redes-desktop div{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+body footer .container-footer-desktop .redes-desktop div img {
+    width: 20px;
+    height: 20px;
+}
+body footer .container-footer-desktop .redes-desktop img {
+    width: 20px;
+    height: 20px;
+}

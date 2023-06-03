@@ -1,0 +1,134 @@
+body header .logo {
+    top: 61.99px;
+    left: 39.15px;
+}
+body header .header-background-mobile-transparent {
+    display: none;
+}
+body header .header-background-pattern {
+    background-image: url(/assets/bg-pattern-1.svg);
+    width: 266.67px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -32px;
+    position: absolute;
+    left: 537px;
+}
+body header .header-background-tablet {
+    background-image:  url(/assets/bg-main-tablet.png);
+    width: 983px;
+    height: 808px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -112px;
+    left: -254px;
+}
+
+body main {
+    top: 189px;
+}
+body main .container-text {
+    width: 520px;
+    height: 332px;
+    left: 39px;
+    margin-bottom: 111px;
+}
+body main .container-text .text-title {
+    font-size: calc(64rem / 16);
+    line-height: 64px;
+    letter-spacing: -0.73px;
+}
+body main .container-text .text-paragraph {
+    font-size: calc(18rem / 16);
+    line-height: 28px;
+}
+body main .container-card {
+    width: 696px;
+    height: 834px;
+    left: 33px;
+}
+body main .container-card .card-img-app {
+    width: 270.21px;
+    height: 556px;
+    left: 64px;
+}
+body main .container-card .container-card-bg {
+    width: 696px;
+    height: 600px;
+    top: 138px;
+}
+body main .container-card .container-card-bg .card-img-background {
+    left: 229px;
+}
+body main .container-card .container-card-text {
+    left: 239px;
+    width: 399px;
+    height: 546px;
+    z-index: 1;
+}
+body main .container-card .container-card-text h2 {
+    left: 48px;
+}
+body main .container-card .container-card-text .text-paragraph {
+    left: 48px;
+}
+body main .container-card .container-card-text .date {
+    left: 54px;
+}
+body main .container-card .container-card-text .button-1 {
+    left: 54px;
+}
+body main .container-card .container-card-text .button-2 {
+    left: 54px;
+}
+body footer .container-footer-mobile {
+    display: none;
+}
+body footer .redes-mobile {
+    display: none;
+}
+
+body footer {
+    height: 315px;
+    top: 1466px;
+}
+body footer .container-footer-tablet {
+    display: block;
+    width: 696px;
+    height: 143px;
+    display: flex;
+    left: 33px;
+    top: 87px;
+    position: absolute;
+}
+body footer .container-footer-tablet .logo {
+    height: 143px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+body footer .container-footer-tablet .logo img {
+    width: 146.09px;
+    height: 32px;
+}
+body footer .container-footer-tablet .logo p {
+    font-size: calc(16rem / 16);
+    width: 366px;
+    height: 79px;
+    line-height: 26px;
+}
+body footer .container-footer-tablet .logo p span {
+    font-weight: bold;
+}
+body footer .redes-tablet {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 94px;
+    left: 596px;
+}

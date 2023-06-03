@@ -1,0 +1,271 @@
+:root {
+    /* colors */
+    --green: #66E2DC;
+    --orange: #FA7453;
+    --yellow: #FFB964;
+    --white: #FCFAF9;
+    --black: #191826;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+body header .logo {
+    position: relative;
+    width: 146.09px;
+    height: 32px;
+    top: 39.99px;
+    left: 32px;
+}
+body header .logo img {
+    width: 100%;
+    height: 100%;
+}
+body .header-background-mobile-transparent {
+    background-image: url(./assets/bg-main-mobile.png);
+    width: 281.4px;
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -104px;
+    left: 159px;
+    z-index: 1;
+}
+body main {
+    position: relative;
+    top: 136px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+body main .container-text {
+    width: 327px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 24px;
+    position: relative;
+    margin-bottom: 68px;
+}
+body main .container-text .text-title {
+    font-size: calc(40rem / 16);
+    line-height: 48px;
+    letter-spacing: -0.45px;
+}
+body main .container-text .text-paragraph {
+    font-size: calc(16rem / 16);
+    line-height: 26px;
+    font-weight: 400;
+}
+body main .container-card {
+    position: relative;
+    width: 375px;
+    height: 1024px;
+}
+body main .container-card .card-img-app {
+    display: block;
+    width: 208.97px;
+    height: 430px;
+    left: 80.67px;
+    position: absolute;
+    z-index: 1;
+}
+body main .container-card .card-img-app img {
+    width: 100%;
+    height: auto;
+}
+body main .container-card .container-card-bg {
+    top: 98px;
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    background-color: var(--black);
+    border-radius: 12px;
+}
+body main .container-card .container-card-bg .card-img-background {
+    width: 280px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    left: 48px;
+}
+body main .container-card .container-card-bg .card-img-background img {
+    width: 100%;
+    height: auto;
+}
+body main .container-card .container-card-text {
+    width: 375px;
+    height: 546px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--orange);
+    border-radius: 12px;
+    color: var(--white);
+}
+body main .container-card .container-card-text h2 {
+    font-size: calc(32rem / 16);
+    width: 302px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 36px;
+    top: 48px;
+}
+body main .container-card .container-card-text .text-paragraph {
+    font-size: calc(18rem / 16);
+    width: 302px;
+    height: 140px;
+    line-height: 28px;
+    position: absolute;
+    top: 100px;
+    left: 36px;
+}
+body main .container-card .container-card-text .date {
+    width: 165px;
+    height: 52px;
+    position: absolute;
+    top: 276px;
+    left: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+body main .container-card .container-card-text .date .number {
+    font-size: calc(65rem / 16);
+    font-weight: bold;
+    line-height: 52px;
+}
+body main .container-card .container-card-text .date .text {
+    font-size: calc(20rem / 16);
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+body main .container-card .container-card-text .button-1 {
+    position: absolute;
+    width: 296px;
+    height: 61px;
+    top: 360px;
+    left: 42px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+}
+body main .container-card .container-card-text .button-1:hover {
+    background-color: var(--green);
+}
+body main .container-card .container-card-text .button-2:hover {
+    background-color: var(--yellow);
+}
+body main .container-card .container-card-text .button-1 div {
+    width: 142px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body main .container-card .container-card-text .button-1 div p {
+    font-size: calc(18rem / 16);
+    letter-spacing: -0.18px;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 32px;
+}
+body main .container-card .container-card-text .button-1 div img {
+    width: 17.08px;
+    height: 20px;
+}
+body main .container-card .container-card-text .button-2 {
+    width: 296px;
+    height: 61px;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    top: 437px;
+    left: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body main .container-card .container-card-text .button-2 div {
+    width: 178.5px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body main .container-card .container-card-text .button-2 div p {
+    font-size: calc(18rem / 16);
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body main .container-card .container-card-text .button-2 div img {
+    width: 16.7px;
+    height: 20px;
+}
+
+
+body footer {
+    top: 1548px;
+    position: absolute;
+    width: 100%;
+    height: 397px;
+}
+body footer .container-footer-mobile {
+    width: 327px;
+    height: 169px;
+    position: absolute;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 64px;
+}
+body footer .container-footer-mobile img {
+    width: 146.09px;
+    height: 32px;
+}
+body footer .container-footer-mobile p {
+    font-size:  calc(16rem / 16);
+    line-height: 26px;
+    height: 105px;
+}
+body footer .container-footer-mobile span {
+    font-weight: bold;
+}
+body footer .redes-mobile {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 24px;
+    top: 297px;
+}
+
+body footer .container-footer-tablet {
+    display: none;
+}
+body footer .container-footer-desktop {
+    display: none;
+}
