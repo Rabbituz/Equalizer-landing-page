@@ -92,11 +92,13 @@ body main .container-card .container-card-text .date {
 }
 body main .container-card .container-card-text .button-1 {
     top: 439px;
+    width: 333px;
     left: 54px;
 }
 body main .container-card .container-card-text .button-2 {
     top: 516px;
     left: 54px;
+    width: 333px;
 }
 body footer {
     top: 1575px;
