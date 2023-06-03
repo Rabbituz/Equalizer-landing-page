@@ -15,4 +15,4 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 
 ### Screenshot
 
-![img](https://github.com/Rabbituz/Equalizer-landing-page/assets/107909869/ba3dc051-6b29-4c25-99d6-2c925381fdfa)
+![img](https://github.com/Rabbituz/Equalizer-landing-page/assets/107909869/506a7ff4-723d-4fa8-aad4-d750a68c1aca)
